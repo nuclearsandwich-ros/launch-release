@@ -1,0 +1,12 @@
+Source: ros-turbulent-launch
+Section: misc
+Priority: extra
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), python3-pytest, ros-turbulent-ament-copyright, ros-turbulent-ament-flake8, ros-turbulent-ament-pep257, ros-turbulent-osrf-pycommon, ros-turbulent-ros-workspace, python3-all, python3-setuptools
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-launch
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, python3-lark-parser, ros-turbulent-ament-index-python, ros-turbulent-osrf-pycommon, ros-turbulent-ros-workspace
+Description: The ROS launch tool.
