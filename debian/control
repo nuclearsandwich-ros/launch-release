@@ -1,0 +1,12 @@
+Source: ros-turbulent-test-launch-testing
+Section: misc
+Priority: extra
+Maintainer: Michel Hidalgo <michel@ekumenlabs.com>
+Build-Depends: debhelper (>= 9.0.0), python3-pytest, ros-turbulent-ament-cmake, ros-turbulent-ament-cmake-gtest, ros-turbulent-ament-cmake-pytest, ros-turbulent-ament-cmake-python, ros-turbulent-ament-index-python, ros-turbulent-ament-lint-auto, ros-turbulent-ament-lint-common, ros-turbulent-launch, ros-turbulent-launch-testing, ros-turbulent-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-test-launch-testing
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-turbulent-ros-workspace
+Description: Tests for the launch_testing package.
