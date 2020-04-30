@@ -1,0 +1,12 @@
+Source: ros-verystable-launch-testing-ament-cmake
+Section: misc
+Priority: optional
+Maintainer: Pete Baughman <pete.baughman@apex.ai>
+Build-Depends: debhelper (>= 9.0.0), ros-verystable-ament-cmake, ros-verystable-ament-cmake-copyright, ros-verystable-launch-testing, ros-verystable-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-verystable-launch-testing-ament-cmake
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-verystable-ament-cmake-test, ros-verystable-launch-testing, ros-verystable-python-cmake-module, ros-verystable-ros-workspace
+Description: A package providing cmake functions for running launch tests from the build.
