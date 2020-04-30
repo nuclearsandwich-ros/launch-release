@@ -1,1 +1,1 @@
-{"trim": "", "base": "7742bd8", "trimbase": "", "parent": "debian/eloquent/launch_testing", "previous": "b1eae42"}
+{"base": "eac91b0", "parent": "debian/verystable/launch_testing", "previous": "21d740f", "trim": "", "trimbase": ""}
