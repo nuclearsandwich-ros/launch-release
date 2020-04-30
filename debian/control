@@ -1,0 +1,12 @@
+Source: ros-verystable-test-launch-testing
+Section: misc
+Priority: optional
+Maintainer: Michel Hidalgo <michel@ekumenlabs.com>
+Build-Depends: debhelper (>= 9.0.0), python3-pytest, ros-verystable-ament-cmake, ros-verystable-ament-cmake-gtest, ros-verystable-ament-cmake-pytest, ros-verystable-ament-cmake-python, ros-verystable-ament-index-python, ros-verystable-ament-lint-auto, ros-verystable-ament-lint-common, ros-verystable-launch, ros-verystable-launch-testing, ros-verystable-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-verystable-test-launch-testing
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-verystable-ros-workspace
+Description: Tests for the launch_testing package.
