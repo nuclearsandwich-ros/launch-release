@@ -1,0 +1,12 @@
+Source: ros-testing-launch-yaml
+Section: misc
+Priority: optional
+Maintainer: Ivan Paunovic <ivanpauno@ekumenlabs.com>
+Build-Depends: debhelper (>= 9.0.0), python3-pytest, ros-testing-ament-copyright, ros-testing-ament-flake8, ros-testing-ament-pep257, ros-testing-launch, ros-testing-ros-workspace, python3-all, python3-setuptools
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-testing-launch-yaml
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, ros-testing-launch, ros-testing-ros-workspace
+Description: YAML frontend for the launch package.
