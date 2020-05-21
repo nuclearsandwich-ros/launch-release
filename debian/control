@@ -1,0 +1,12 @@
+Source: ros-testing-launch-testing-ament-cmake
+Section: misc
+Priority: optional
+Maintainer: Pete Baughman <pete.baughman@apex.ai>
+Build-Depends: debhelper (>= 9.0.0), ros-testing-ament-cmake, ros-testing-ament-cmake-copyright, ros-testing-launch-testing, ros-testing-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-testing-launch-testing-ament-cmake
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-testing-ament-cmake-test, ros-testing-launch-testing, ros-testing-python-cmake-module, ros-testing-ros-workspace
+Description: A package providing cmake functions for running launch tests from the build.
